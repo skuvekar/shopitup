@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 1);
+
+}
+
+
+
+.logo {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 50%;
+    border: 3px solid white;
+    border-radius: 50px;
+    /* margin-right:50px; */
+}
+
+.nav-list {
+
+    width: 50%;
+    /* background-color:black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 20px 11px;
+    /* color:white; */
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: yellow;
+
+}
+
+
+.rightnav {
+
+    /* text-align : right; */
+    /* background-color:black; */
+    width: 50%;
+
+}
+
+#search {
+    height: 35px;
+    padding-left: 15px;
+    font-size: 17px;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-left: 187px;
+
+}
+
+.loginbtn {
+    padding-left: 557px;
+    margin-top: -94px;
+}
+
+.loginbtn button {
+
+    background-color: transparent;
+    width: 100px;
+    height: auto;
+    padding: 8px 12px;
+    margin: 28.5px 0;
+    border: 2px solid rgb(248, 232, 9);
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+
+}
+
+/* .loginbtn {
+    text-align: right;
+
+    margin-top: -25px;
+
+}*/
+
+.loginbtn button a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+
+
+}
+
+.loginbtn button a:hover {
+
+    color: yellow;
+
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.5) url('D:/SHRUTI Colleg/Practice Vs programs/WEBSITE TUTORIALS/Skill Vertex/minor project/img/bg.png');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80;
+}
+
+.firstsection {
+    height: 100vh;
+    display: flex
+}
+
+/* .firsthalf{
+    
+    
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center; */
+
+
+
+/* .secondhalf{
+    width:30%;
+}
+.secondhalf img{
+    width:70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    margin: auto;
+} */
+
+.bigtext {
+
+    font-size: 70px;
+}
+
+.btn {
+    background-color: transparent;
+    width: 100px;
+    height: auto;
+    padding: 8px 12px;
+    margin: 28.5px 0;
+    border: 2px solid rgb(248, 232, 9);
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+.btn:hover {
+    color: yellow;
+}
+
+.firstbox {
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 300px;
+    text-align: center;
+    margin-left: 10px;
+    margin:10px;
+    padding:10px;
+    
+}
+
+.firstrow {
+    display:block;
+    margin: 50px;
+    margin-top: 50px;
+}
+
+.firstbox img{
+    background:rgba(0,0,0,0.1);
+}
+
+
+.firstline{
+   display:flex;
+} 
+.secondline{
+   display:flex;
+} 
+
+.thirdrow {
+    display: flex;
+    margin: 50px;
+    margin-top: 100px;
+}
+
+.fourthrow {
+    display: flex;
+    margin: 50px;
+    margin-top: 100px;
+    align-items:center;
+}
+
+.thirdbox {
+    height: 350px;
+    border: 2px solid black;
+    border-radius:3px;
+    width: 300px;
+    text-align: center;
+    margin-left: 10px;
+    margin:10px;
+    padding:10px;
+}
+
+/* #banarsisari {
+    height: 100px;
+    width: 100px
+} */
+
+#cottonsari {
+    height: 300px;
+    width: 250px;
+}
+
+.secondrow{
+    display:flex;
+    margin: 50px;
+    margin-top: 150px;
+    margin-bottom:150px;
+    align-items:center;
+}
+
+#secondpara{
+    margin-left:15px;
+    text-align:left;
+}
+
+#description{
+    text-align:right;
+}
+
+#deals{
+    margin:52px;
+    margin-top: 100px;
+}
+
+#cottonsari{
+    align-self:left;
+}
+
