@@ -121,7 +121,7 @@
 }
 
 .background {
-    background: rgba(0, 0, 0, 0.5) url('D:/SHRUTI Colleg/Practice Vs programs/WEBSITE TUTORIALS/Skill Vertex/minor project/img/bg.png');
+    background: rgba(0, 0, 0, 0.5) url('bg.png');
     background-size: cover;
     background-blend-mode: darken;
 }
